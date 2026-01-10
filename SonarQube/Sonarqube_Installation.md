@@ -183,6 +183,7 @@ sudo systemctl status sonarqube
 http://<Your-EC2-Public-IP>:9000
 
 Username: admin
+
 Password: admin
 
 
