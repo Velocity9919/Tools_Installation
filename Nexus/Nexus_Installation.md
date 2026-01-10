@@ -122,4 +122,3 @@ To find default password run the below command:
 sudo nano /opt/sonatype-work/nexus3/admin.password
 ```
 
-Nginx should now be serving your domain name. You can test this by navigating to https://your_domain
