@@ -9,9 +9,7 @@ At least 2 CPU cores and 4 GB of RAM for smooth performance.
 ### Update Package Repository and Upgrade Packages
 
 ```
-shell title="Run from shell prompt" linenums="1"
 sudo apt update
-sudo apt upgrade
 ```
 ```
 sudo apt install openjdk-17-jdk -y
