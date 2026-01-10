@@ -115,7 +115,7 @@ Use the below command to open to access Nexus repository web interface:
 http://server_IP:8081
 ```
 
-To login to Nexus, click on Sign In, default username is admin
+To login to Nexus, click on Sign In, default username is ``` admin ```
 
 To find default password run the below command:
 ```
