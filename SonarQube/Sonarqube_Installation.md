@@ -178,6 +178,17 @@ sudo systemctl start sonarqube
 ```
 sudo systemctl status sonarqube
 ```
+Reload systemd :
+```
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+```
+"Unit sonar.service could not be found"
+
+```
+tail -f /opt/sonarqube/logs/sonar.log
+```
+
 ### Step #6:Access SonarQube Web Interface
 
 http://<Your-EC2-Public-IP>:9000
