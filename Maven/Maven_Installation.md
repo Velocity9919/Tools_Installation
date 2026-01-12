@@ -32,6 +32,18 @@ mv apache-maven-3.9.12 maven
 ````
 rm apache-maven-3.9.12-bin.tar.gz
 ````
+```
+vi ~/.bashrc
+```
+Add at the bottom:
+```
+export M2_HOME=/opt/maven
+export PATH=$M2_HOME/bin:$PATH
+```
+```
+source ~/.bashrc
+```
+
 Configure Apache Maven Environment Variables:
 
 ````
