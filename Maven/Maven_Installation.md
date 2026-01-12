@@ -45,9 +45,9 @@ export M2_HOME=/opt/maven
 export PATH=${M2_HOME}/bin:${PATH}
 ````
 ````
-sudo chmod 777 /etc/profile.d/maven.sh
-sudo chmod +x /etc/profile.d/maven.sh
-source /etc/profile.d/maven.sh
+sudo chmod 777 /etc/profile.d/mavenenv.sh
+sudo chmod +x /etc/profile.d/mavenenv.sh
+source /etc/profile.d/mavenenv.sh
 ````
 Verify Maven Installation:
 Check the installed version of Maven by running:
