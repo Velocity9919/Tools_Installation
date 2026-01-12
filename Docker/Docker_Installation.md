@@ -1,8 +1,10 @@
 # Docker Installation Steps
 --- JDK Installation ---
 ````
-sudo apt-get update -y
-sudo apt install openjdk-11-jre -y
+sudo apt update -y
+sudo apt install openjdk-17-jre -y
+sudo apt install openjdk-17-jdk -y
+java --version
 ````
 --- Docker Installation ---
 ````
@@ -47,4 +49,5 @@ sudo systemctl restart docker
 ````
 sudo systemctl status docker
 ````
+
 
