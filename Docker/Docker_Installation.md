@@ -50,4 +50,9 @@ sudo systemctl restart docker
 sudo systemctl status docker
 ````
 
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.
 
+```
+sudo chown root:docker /var/run/docker.sock
+sudo chmod 660 /var/run/docker.sock
+```
