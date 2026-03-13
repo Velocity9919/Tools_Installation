@@ -195,7 +195,7 @@ http://<Your-EC2-Public-IP>:9000
 
 Username: admin
 
-Password: admin
+Password: Sonar@123456
 
 
 
