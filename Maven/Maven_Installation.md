@@ -21,16 +21,16 @@ Install Apache Maven:
 cd /opt/
 ````
 ````
-wget https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.tar.gz
+wget https://archive.apache.org/dist/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
 ````
 ````
-tar -xvf apache-maven-3.9.12-bin.tar.gz
+tar -xvf apache-maven-3.9.9-bin.tar.gz
 ````
 ````
-mv apache-maven-3.9.12 maven
+mv apache-maven-3.9.9 maven
 ````
 ````
-rm apache-maven-3.9.12-bin.tar.gz
+rm apache-maven-3.9.9-bin.tar.gz
 ````
 ```
 vi ~/.bashrc
