@@ -7,6 +7,7 @@ sudo hostnamectl set-hostname Jenkins
 ````
 ````
 sudo apt update -y
+sudo apt upgrade -y
 sudo apt install fontconfig openjdk-21-jre
 java -version
 ````
