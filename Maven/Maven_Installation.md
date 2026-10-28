@@ -37,7 +37,7 @@ vi ~/.bashrc
 ```
 Add at the bottom:
 ```
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
 export M2_HOME=/opt/maven
 export PATH=$M2_HOME/bin:$PATH
 ```
