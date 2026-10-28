@@ -51,7 +51,7 @@ Configure Apache Maven Environment Variables:
 sudo vi /etc/profile.d/mavenenv.sh
 ````
 ````
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
 
 export M2_HOME=/opt/maven
 
